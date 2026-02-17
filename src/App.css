@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+.App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color:  		#2d2d30;
+
+}
+button{
+  background-color: 	#2d2d30;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+}
+button:hover{
+  background-color: #2d2d30;
+}
+button:active{
+  background-color: 	#007acc;
+}
+select{
+  background-color: 	#252526;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+select:hover{
+  background-color: #2d2d30;
+}
+select:active{
+  background-color: 	#007acc;
+}
+h3{ 
+  display: inline-block;
+  color: #007acc;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.4s ease;
+}
+
+h3:hover{
+  color: #00ccff;
+  text-shadow:
+    0 0 5px #00ccff,
+    0 0 10px #00ccff,
+    0 0 20px #0099ff,
+    0 0 40px #0099ff;
+  
+  transform: scale(1.1) translateY(-3px);
+
+  animation: shine 1.5s infinite linear;
+}
+
+/* glow  */
+@keyframes shine {
+  0%{
+    filter: brightness(1);
+  }
+  50%{
+    filter: brightness(1.8);
+  }
+  100%{
+    filter: brightness(1);
+  }
+}
+hr{
+  border: none;
+  height: 3px;
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(90deg, transparent, #00ccff, transparent);
+  
+  animation: glowMove 2s linear infinite alternate;
+}
+
+/*   glow when idle */
+@keyframes glowMove {
+  0%{
+    background-position: -200px;
+    filter: brightness(1);
+  }
+  50%{
+    filter: brightness(1.8);
+  }
+  100%{
+    background-position: 200px;
+    filter: brightness(1);
+  }
+}

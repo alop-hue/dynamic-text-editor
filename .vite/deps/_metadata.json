@@ -1,0 +1,31 @@
+{
+  "hash": "283e26bf",
+  "configHash": "61581b28",
+  "lockfileHash": "1c8297d9",
+  "browserHash": "ee6de6bb",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "89e62191",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "50085c07",
+      "needsInterop": true
+    },
+    "@monaco-editor/react": {
+      "src": "../../node_modules/@monaco-editor/react/dist/index.mjs",
+      "file": "@monaco-editor_react.js",
+      "fileHash": "c99d3238",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-G4V7ITBN": {
+      "file": "chunk-G4V7ITBN.js"
+    }
+  }
+}
